@@ -22,7 +22,7 @@ $(function () {
   function getMsg(text) {
     $.ajax({
       method: 'GET',
-      url: 'http://www.liulongbin.top:3006/api/robot',
+      url: 'https://www.liulongbin.top:3006/api/robot',
       data: {
         spoken: text
       },
@@ -45,7 +45,7 @@ $(function () {
   function getVoice(text) {
     $.ajax({
       method: 'GET',
-      url: 'http://www.liulongbin.top:3006/api/synthesize',
+      url: 'https://www.liulongbin.top:3006/api/synthesize',
       data: {
         text: text
       },
